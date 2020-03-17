@@ -1,0 +1,25 @@
+{
+    "name": "jenryollivierre/laranonce",
+    "description": "A nonce generator for your laravel application.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jenry Ollivierre",
+            "email": "jenry@jenryollivierre.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Laranonce\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laranonce\\NonceServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
